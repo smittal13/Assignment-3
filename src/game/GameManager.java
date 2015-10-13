@@ -106,12 +106,6 @@ public class GameManager {
 		card = cardDeck.drawCard();
 		canDraw = false;
 		CardDisplay cd = new CardDisplay(card.getName());
-/*		JOptionPane.showMessageDialog(
-			null, 
-			card.getName(), 
-			"Sorry!", 
-			JOptionPane.NO_OPTION
-		);*/
 		//If the player cannot make a move, just skip
 		if(!canMakeMove()) endTurn();
 	}

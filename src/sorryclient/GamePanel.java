@@ -119,7 +119,7 @@ public class GamePanel extends JPanel {
 	}
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g);
-		g.drawImage(logo.getImage(), 240, 100, getWidth()/4, getHeight()/5, null);
+		g.drawImage(logo.getImage(), getWidth()/3 + getWidth()/15, getHeight()/5, getWidth()/4, getHeight()/5, null);
 	}
 	public void redraw() {
 		for(TilePanel row[] : tileGrid) {

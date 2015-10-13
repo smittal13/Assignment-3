@@ -30,6 +30,7 @@ public class CardDisplay extends JFrame {
 		setSize(300,400);
 		setLocation(100,100);
 		setLayout(new BorderLayout());
+		setLocationRelativeTo(null);
 		
 		//Get and set backing of the card
 		backing = new ImageIcon("src/images/cards/card_brown.png");
